@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <input type="text" id="name" placeholder="name">
+            <input type="email" name="" id="email" placeholder="email@gmail.com">
+            <input type="password" name="" id="password" placeholder="*******">
+           <select name="" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+           </select>
+           <button onclick="signup(event)">Sign up</button>
+        </form>
+    </main>
+</body>
+</html>
+<script>
+    fetch("http://localhost:1234/users")
+    .then((response)=>response.json())
+    .then((data)=>{   
+      console.log(data);
+    })
+     let name  = document.getElementById("name")
+  let email = document.getElementById("email")
+  let password = document.getElementById("password");
+  let gender = document.getElementById("gender")
+    function signup(ev){
+        ev.preventDefault()
+          user_data = {
+              id:"",
+              name: name.value,
+              email: email.value,
+              password: password.value,
+              gender: gender.value
+        }
+       fetch("http://localhost:1234/users", {
+        headers:{
+            "Content-Type":"Application/json",
+        },
+        method: "POST",
+        body: JSON.stringify(user_data)
+    }).then((response)=>response.json())
+    .then((data)=>{
+        console.log(data)
+        window.location.href = "signin.html"
+    })
+    }
+</script>

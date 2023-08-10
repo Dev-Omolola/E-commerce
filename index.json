@@ -1,0 +1,506 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Anuoluwapo Omolola",
+      "email": "omololly@gmail.com",
+      "password": "omololly",
+      "gender": "Female"
+    },
+    {
+      "id": 2,
+      "name": "Omolola",
+      "email": "omololaadelabu@gmail.com",
+      "password": "omolola",
+      "gender": "Female"
+    }
+  ],
+  "currentUsers": [
+    {
+      "id": 1,
+      "name": "Anuoluwapo Omolola",
+      "email": "omololly@gmail.com",
+      "password": "omololly",
+      "gender": "Female"
+    }
+  ],
+  "carts": [
+    {
+      "id": 7,
+      "title": "Samsung Galaxy Book",
+      "brand": "Samsung",
+      "category": "laptops",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "discountPercentage": 4.15,
+      "images": "https://i.dummyjson.com/data/products/7/1.jpg",
+      "price": 1499,
+      "InCart": true,
+      "email": "omololly@gmail.com"
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro",
+      "brand": "Apple",
+      "category": "laptops",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "discountPercentage": 11.02,
+      "images": "https://i.dummyjson.com/data/products/6/1.png",
+      "price": 1749,
+      "InCart": true,
+      "email": "omololly@gmail.com"
+    },
+    {
+      "id": 5,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "discountPercentage": 10.58,
+      "images": "https://i.dummyjson.com/data/products/5/1.jpg",
+      "price": 499,
+      "InCart": true,
+      "email": "omololly@gmail.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Phones and Tablets",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/phones-tablets_300x240.png"
+    },
+    {
+      "id": 2,
+      "title": "Groceries",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/groceries_300x240v2.png"
+    },
+    {
+      "id": 3,
+      "title": "Computing Deals",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/generic_300x240.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Health & Beauty",
+      "images": "https://ng.jumia.is/cms/0-6-anniversary/2023/Brand-day/30-Nivea/generic_300x240.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Television",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/televisions_300x240.png"
+    },
+    {
+      "id": 6,
+      "title": "Oraimo stores",
+      "images": "https://ng.jumia.is/cms/0-6-anniversary/2023/Brand-day/16-Oraimo/generic_300x240.png"
+    },
+    {
+      "id": 7,
+      "title": "Refrigators",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/refrigerators_300x240.png"
+    },
+    {
+      "id": 8,
+      "title": "Mobile Accessories",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/earphones_300x240.png"
+    },
+    {
+      "id": 9,
+      "title": "Generators",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/generator.gif"
+    },
+    {
+      "id": 10,
+      "title": "Men's Sneakers",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/fashion_300x240.png"
+    },
+    {
+      "id": 11,
+      "title": "Watches",
+      "images": "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/watches_300x240.png"
+    },
+    {
+      "id": 12,
+      "title": "Clearance Sales",
+      "images": "https://ng.jumia.is/cms/0-1-initiatives/clearance-sale/2023/Clearance.gif"
+    }
+  ],
+  "Cooking": [
+    {
+      "id": 1,
+      "title": "AirFryers",
+      "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/air-fryers_300x400.png"
+    },
+    {
+      "id": 2,
+      "title": "Cookers",
+      "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/cookers_300x400.png"
+    },
+    {
+      "id": 3,
+      "title": "Food Processors",
+      "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/food-processors_300x400.png"
+    },
+    {
+      "id": 4,
+      "title": "Microwaves",
+      "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/microwaves_300x400.png"
+    },
+    {
+      "id": 5,
+      "title": "Rice Cookers",
+      "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/rice-cookers_300x400.png"
+    },
+    {
+      "id": 6,
+      "title": "Toasters",
+      "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/toasters_300x400.png"
+    }
+  ],
+  "Appliances": [
+    {
+      "Cooking_Appliances": [
+        {
+          "id": 1,
+          "title": "AirFryers",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/air-fryers_300x400.png"
+        },
+        {
+          "id": 2,
+          "title": "Cookers",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/cookers_300x400.png"
+        },
+        {
+          "id": 3,
+          "title": "Food Processors",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/food-processors_300x400.png"
+        },
+        {
+          "id": 4,
+          "title": "Microwaves",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/microwaves_300x400.png"
+        },
+        {
+          "id": 5,
+          "title": "Rice Cookers",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/rice-cookers_300x400.png"
+        },
+        {
+          "id": 6,
+          "title": "Toasters",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/toasters_300x400.png"
+        }
+      ]
+    },
+    {
+      "Kitchen_Appliances": [
+        {
+          "id": 1,
+          "title": "Blenders",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/blenders_300x400.png"
+        },
+        {
+          "id": 2,
+          "title": "Dish Washers",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/dishwashers_300x400.png"
+        },
+        {
+          "id": 3,
+          "title": "Juicers",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/juicers_300x400.png"
+        },
+        {
+          "id": 4,
+          "title": "Kettles",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/kettles_300x400.png"
+        },
+        {
+          "id": 5,
+          "title": "Mixers",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/mixers_300x400.png"
+        },
+        {
+          "id": 6,
+          "title": "Range Hood",
+          "img": "https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/range-hoods_300x400.png"
+        }
+      ]
+    },
+    {
+      "Top Deals on Kitchen Appliances": [
+        {
+          "id": 1,
+          "title": "Binatone 2 Litres",
+          "img": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/049652/1.jpg?2694",
+          "price": 10260
+        },
+        {
+          "id": 2,
+          "title": "Philips 4.1 Litres",
+          "img": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/7041861/1.jpg?9586",
+          "price": 98000
+        },
+        {
+          "id": 3,
+          "title": "Silver Crest 2 Litres German",
+          "img": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/2267121/1.jpg?5955",
+          "price": 16800
+        },
+        {
+          "id": 4,
+          "title": "Binatone 1.5 Litres",
+          "img": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/529261/1.jpg?6488",
+          "price": 17490
+        },
+        {
+          "id": 5,
+          "title": "Binatone 1.7 Litres Electric Kettle",
+          "img": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/325358/1.jpg?3257",
+          "price": 11400
+        },
+        {
+          "id": 6,
+          "title": "Electric Juice Extractor",
+          "img": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/9693712/1.jpg?3735",
+          "price": 23213
+        }
+      ]
+    }
+  ],
+  "topSelling": [
+    {
+      "id": 1,
+      "title": "2 In 1 Men's Short Sleeve Shirt & Short Set - White",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/202776/1.jpg?0581",
+      "price": 2800
+    },
+    {
+      "id": 2,
+      "title": "EILIFINTE B06 Casual Crossbody Shoulder Chest Bag-Grey",
+      "brand": "EILIFINTE",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/87/5167301/1.jpg?7673",
+      "price": 1600
+    },
+    {
+      "id": 3,
+      "title": "Six Pieces-in-1 Quality Ankle Socks",
+      "brand": "Ankle",
+      "images": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/332204/1.jpg?2782",
+      "price": 1100
+    },
+    {
+      "id": 4,
+      "title": "Feng Shui Black Obsidian Wealth Bracelet",
+      "brand": "Feng Shui",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/422854/1.jpg?4160",
+      "price": 900
+    },
+    {
+      "id": 5,
+      "title": "2022 Men Casual Classic Running Sneakers - White",
+      "brand": "Nike",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/93/763176/1.jpg?8276",
+      "price": 6380
+    },
+    {
+      "id": 6,
+      "title": "Digital Watch - LED Watch - Electronic Sports Watch",
+      "brand": "LED",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/61/414717/1.jpg?2241",
+      "price": 999
+    },
+    {
+      "id": 7,
+      "title": "Biore UV Aqua Rich Watery Essence Sunscreen SPF 50 (50ml)",
+      "brand": "Biore",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/7105621/1.jpg?1778",
+      "price": 2999
+    },
+    {
+      "id": 8,
+      "title": "Men Vintage Short Sleeve Stand Collar Shirt-Yellow",
+      "brand": "Vintage",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/078776/1.jpg?3350",
+      "price": 2800
+    },
+    {
+      "id": 9,
+      "title": "Men's Fashion Sneakers Casual Leather Shoes-White",
+      "brand": "Puma",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/87/086877/1.jpg?8017",
+      "price": 4990
+    },
+    {
+      "id": 10,
+      "title": "Santa Monica Studios God Of War - Playstation 4",
+      "brand": "Santa Monica Studios",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/94/6502642/1.jpg?0265",
+      "price": 10500
+    },
+    {
+      "id": 11,
+      "title": "Big Bull Rice 5Kg",
+      "brand": "Big Bull",
+      "images": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/841389/1.jpg?3282",
+      "price": 4650
+    },
+    {
+      "id": 12,
+      "title": "Nestle Milo Hot Chocolate Refill - 400g",
+      "brand": "Nestle",
+      "images": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/13/816178/1.jpg?0902",
+      "price": 1550
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "brand": "Apple",
+      "category": "smartphones",
+      "description": "An apple mobile which is nothing like apple",
+      "discountPercentage": 12.96,
+      "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+      "price": 549,
+      "InCart": false
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "brand": "Apple",
+      "category": "smartphones",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "discountPercentage": 17.94,
+      "images": "https: //i.dummyjson.com/data/products/2/1.jpg",
+      "price": 899,
+      "user_email": "",
+      "InCart": false
+    },
+    {
+      "id": 3,
+      "title": "Samsung Universe 9",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "discountPercentage": 15.46,
+      "images": "https://i.dummyjson.com/data/products/3/1.jpg",
+      "price": 1249,
+      "InCart": false
+    },
+    {
+      "id": 4,
+      "title": "OPPOF19",
+      "brand": "OPPO",
+      "category": "smartphones",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "discountPercentage": 17.91,
+      "images": "https://i.dummyjson.com/data/products/4/1.jpg",
+      "price": 280,
+      "InCart": false
+    },
+    {
+      "id": 5,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "discountPercentage": 10.58,
+      "images": "https://i.dummyjson.com/data/products/5/1.jpg",
+      "price": 499,
+      "InCart": false
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro",
+      "brand": "Apple",
+      "category": "laptops",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "discountPercentage": 11.02,
+      "images": "https://i.dummyjson.com/data/products/6/1.png",
+      "price": 1749,
+      "InCart": false
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy Book",
+      "brand": "Samsung",
+      "category": "laptops",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "discountPercentage": 4.15,
+      "images": "https://i.dummyjson.com/data/products/7/1.jpg",
+      "price": 1499,
+      "InCart": false
+    },
+    {
+      "id": 8,
+      "title": "Microsoft Surface Laptop 4",
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "discountPercentage": 10.23,
+      "images": "https: //i.dummyjson.com/data/products/8/1.jpg",
+      "price": 1499,
+      "InCart": false
+    },
+    {
+      "id": 9,
+      "title": "Infinix INBOOK",
+      "brand": "Infinix",
+      "category": "laptops",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "discountPercentage": 11.83,
+      "images": "https://i.dummyjson.com/data/products/9/1.jpg",
+      "price": 1099,
+      "InCart": false
+    },
+    {
+      "id": 10,
+      "title": "HP Pavilion 15-DK1056WM",
+      "brand": "HP Pavilion",
+      "category": "laptops",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "discountPercentage": 6.18,
+      "images": "https://i.dummyjson.com/data/products/10/1.jpg",
+      "price": 1099,
+      "InCart": false
+    },
+    {
+      "id": 11,
+      "title": "perfume Oil",
+      "brand": "Impression of Acqua Di Gio",
+      "category": "fragrances",
+      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+      "discountPercentage": 8.4,
+      "images": "https://i.dummyjson.com/data/products/11/1.jpg",
+      "price": 13,
+      "InCart": false
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    }
+  ]
+}

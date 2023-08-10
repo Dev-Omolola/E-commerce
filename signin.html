@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="Email">Email</label>
+    <input type="email" placeholder="Email" id="email">
+    <label for="password">Password</label>
+    <input type="password" name="" id="password">
+    <button onclick="signin()">SignIn</button>
+</body>
+
+</html>
+<script>
+
+    let email = document.getElementById("email")
+    let password = document.getElementById("password");
+    let allUser;
+    function fetchAllUser() {
+        fetch("http://localhost:1234/users")
+            .then((response) => response.json())
+            .then((data) => {
+                allUser = data;
+                console.log(allUser);
+
+            })
+    }
+    fetchAllUser()
+    function signin() {
+        current_user = {
+            email: email.value,
+            password: password.value,
+        }
+        let found = allUser.find((f) => f.email == email.value && f.password == password.value)
+        console.log(found);
+        if (found) {
+            fetch("http://localhost:1234/currentusers", {
+                headers: {
+                    "Content-Type": "Application/json",
+                },
+                method: "POST",
+                body: JSON.stringify(found)
+            }).then((response) => response.json())
+                .then((data) => {
+                    console.log(data)
+                    alert("Login Successful")
+                    // let found = user_email.find((el) => elr .id == current_user.email);
+                    // if (found) {
+                        window.location.href = "index.html"
+                    // } else {
+                    //     alert("unauthorised user");
+                    // }
+
+                })
+        }else{
+            alert("User not found Please check your login details")
+            // window.location.href = "signup.html"
+        }
+
+
+    }
+</script>

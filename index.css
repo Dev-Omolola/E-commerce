@@ -1,0 +1,387 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cart{
+  display: flex;
+  border: 1px solid blueviolet;
+  justify-content: end;
+}
+#numCart{
+ /* border: 1px solid black; */
+ display: flex;
+ align-items: center;
+ padding: 5px;
+}
+#numCart button{
+background: none;
+border: none;
+display: flex;
+align-items: center;
+}
+.screen_gangan{
+  /* background-color: rgb(238,185,194); */
+  background-color: rgb(241,241,242);
+  min-height: 100vh;
+}
+.animation{
+  background-image: url("https://ng.jumia.is/cms/0-1-weekly-cps/0-2023/w28-Gadget-on-budget/Philips-brand-day/JA-brands-top-strip.gif");
+}
+.upper{
+background-color: rgb(241,241,242);
+}
+.upper div{
+display: flex;
+align-items: center;
+
+}
+
+.upper_link{
+width: 450px;
+margin: auto;
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+}
+.upper a{
+color: rgba(117,117,122,0.4);
+text-decoration: none;
+font-size: 15px;
+font-weight: 700;
+}
+.upper_link a:hover{
+color: orange;
+}
+
+.logo{
+width: 120px;
+padding: 0 10px;
+}
+.logo img{
+width: 100%;
+}
+nav{
+display: flex;
+justify-content: space-between;
+background-color: white;
+align-items: center;
+position: sticky;
+top: 0;
+padding: 10px;
+z-index: 1;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+.search{
+width: 650px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+.search_input input{
+width: 500px;
+font-size: 17px;
+border: none;
+color: rgb(138,138,142)
+}
+
+.search_input{
+display: flex;
+align-items: center;
+border: 1px solid black;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+
+}
+.search button{
+background-color: rgb(224,126,27);
+color: white;
+font-size: 15px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+
+}
+.account,.help{
+display: flex;
+align-items: center;
+position: relative;
+/* border: 1px solid black; */
+}
+.account_profile,.help_dropdown{
+padding: 10px;
+position: absolute;
+top: 35px;
+border: 1px solid black;
+display: none;
+
+}
+.account:hover,.help:hover{
+color: orange;
+}
+.account:hover>.arrow-up,.help:hover>.arrow-up{
+display:flex;
+}
+.account:hover>.arrow_down,.help:hover>.arrow_down{
+display: none;
+}
+.account:hover>.account_profile,.help:hover>.help_dropdown{
+display: block;
+background-color: antiquewhite;
+}
+.arrow-up{
+display: none;
+}
+.body_div{
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+position: relative;
+}
+.sidebar{
+width: 16%;
+height: 400px;
+background-color: #ffffff;
+border-radius:5px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+/* position: relative; */
+/* border: 1px solid salmon; */
+
+}
+#side-drop{
+  position: absolute;
+  display: flex;
+  
+  width: 700px;
+  left: 190px;
+  height: 400px;
+  /* border: 1px solid black; */
+  background-color: white;
+  top: 0;
+  border-radius: 5px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+display: none;
+
+}
+#side-drop p{
+  font-size: 12px;
+  font-weight: 600;
+}
+.side-drop:hover>#side-drop{
+  display: flex;
+}
+.sidebar div{
+padding: 8px;
+}
+.sidebar a{
+text-decoration: none;
+color: rgb(138,138,142);
+font-size: 12px;
+display: flex;
+align-items: center;
+}
+.sidebar a:hover{
+color: orange;
+}
+
+.main{
+max-width: 900px;
+height: 400px;
+border: 1px solid goldenrod;
+display: flex;
+justify-content: space-between;
+}
+.carocel{
+width: 60%;
+
+/* border: 1px solid blue; */
+}
+.carocel div{
+width: 100%;
+
+}
+.carocel img{
+width: 100%;
+height: 100%;
+border-radius: 8px;
+}
+.img{
+width: 20%;
+/* border: 1px solid black; */
+}
+.img div{
+width: 100%;  
+}
+.img img{
+border-radius: 5px;
+}
+
+#screen{
+background-color: white;
+border: 1px solid black;
+height: 60vh;
+display: flex;
+flex-wrap: wrap;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+.products_div{
+  display: flex;
+  align-items: center;
+width: 30%;
+border: 1px solid blueviolet;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+
+}
+.products_div img{
+width: 50%;
+}
+#cart_screen{
+  display: block;
+}
+#screen1{
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: white;
+border-radius: 5px;
+padding: 10px;
+}
+#screen2{
+position: relative;
+overflow-x: scroll;
+box-sizing: border-box;
+height: 55vh;
+overflow:scroll;
+display: block;
+/* border: 1px solid black; */
+background-color: white;
+padding: 0;
+
+  /* overflow-x: hidden; */
+  
+  /* scrollbar-width: none; */
+}
+.categories_div, .topselling_div{
+width: 15%;
+
+text-align: center;
+margin: auto;
+margin-top: 10px;
+border-radius: 5px;
+
+padding-bottom: 10px;
+transition: .5s;
+border: 1px solid transparent;
+
+}
+#top_selling{
+position: absolute;
+display: flex;
+padding: 0;
+top: 0;
+bottom: 0;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+
+/* border: 1px solid black; */
+}
+
+#screen2::-webkit-scrollbar{
+overflow: hidden;
+}
+
+
+.topselling_div{
+width: 150px;
+margin: 10px;
+}
+.topselling_div button{
+  background-color: orange;
+  color: white;
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-radius: 3px;
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 3px;
+  
+}
+.topselling-header{
+background-color: rgb(254,226,204);
+color: black;
+padding: 10px;
+border-radius: 5px;
+justify-content: space-between;
+
+}
+.topselling-header a{
+  text-decoration: none;
+  color: black;
+}
+.categories_div:hover, .topselling_div:hover{
+transform: scale(1.05);
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+.topselling_div:hover> button{
+  display: block;
+}
+.categories_div img, .topselling_div img{
+width: 100%;
+border-radius: 5px;
+}
+.anime{
+width: 100%;
+}
+.anime img{
+width: 100%;
+}
+
+#screen3{
+border: 1px solid black;
+border: rebeccapurple;
+height: 40vh;
+}
+#screen4{
+  margin-top: 20px;
+  
+}
+.appliances_header{
+  background-color: rgb(222,241,253);
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+
+}
+#topsellingappliances{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  background-color: white;
+  padding: 5px;
+
+  
+
+}
+.topsellingappliances_div{
+  width: 16%;
+  /* border: 1px solid black; */
+  padding: 3px 5px;
+  transition: .5s;
+  
+}
+.topsellingappliances_div:hover{
+  transform: scale(1.05);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+}
+.topsellingappliances_div img{
+  width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .cart{
+    display: flex;
+    border: 1px solid blueviolet;
+    justify-content: end;
+  }
+  #numCart{
+   /* border: 1px solid black; */
+   display: flex;
+   align-items: center;
+   padding: 5px;
+  }
+  #numCart button{
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  }
+  .screen_gangan{
+    /* background-color: rgb(238,185,194); */
+    background-color: rgb(241,241,242);
+    min-height: 100vh;
+  }
+  .animation{
+    background-image: url("https://ng.jumia.is/cms/0-1-weekly-cps/0-2023/w28-Gadget-on-budget/Philips-brand-day/JA-brands-top-strip.gif");
+  }
+  .anime{
+    border: 1px solid black;
+  }
+  .anime img{
+    width: 100%;
+  }
+  .upper{
+  background-color: rgb(241,241,242);
+  }
+  .upper div{
+  display: flex;
+  align-items: center;
+  
+  }
+  
+  .upper_link{
+  width: 450px;
+  margin: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  }
+  .upper a{
+  color: rgba(117,117,122,0.4);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  }
+  .upper_link a:hover{
+  color: orange;
+  }
+  
+  .logo{
+  width: 120px;
+  padding: 0 10px;
+  }
+  .logo img{
+  width: 100%;
+  }
+  nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  z-index: 1;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+  }
+  .search{
+  width: 52%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+  }
+  .search_input input{
+  width: 500px;
+  font-size: 17px;
+  border: none;
+  color: rgb(138,138,142)
+  }
+  
+  .search_input{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  
+  }
+  .search button{
+  background-color: rgb(224,126,27);
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  
+  }
+  .account,.help{
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* border: 1px solid black; */
+  }
+  .account_profile,.help_dropdown{
+  padding: 10px;
+  position: absolute;
+  top: 35px;
+  border: 1px solid black;
+  display: none;
+  
+  }
+  .account:hover,.help:hover{
+  color: orange;
+  }
+  .account:hover>.arrow-up,.help:hover>.arrow-up{
+  display:flex;
+  }
+  .account:hover>.arrow_down,.help:hover>.arrow_down{
+  display: none;
+  }
+  .account:hover>.account_profile,.help:hover>.help_dropdown{
+  display: block;
+  background-color: antiquewhite;
+  }
+  .arrow-up{
+  display: none;
+  }
+
+  .home{
+    font-size: 12px;
+    padding: 3px;
+  }
+  .header{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+
+  }
+  #prod_screen{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    background-color: white;
+  }
+  .product_div{
+    width: 18%;
+    padding: 10px;
+    margin: 10px 0;
+    
+  }
+  .product_div:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+
+  }
+  .product_div:hover>.product_div button:hover{
+    display: flex;
+  }
+  .product_div img{
+    width: 70%;
+    margin: auto;
+  }
+  .product_div button{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    margin: 5px 0;
+    
+  }
